@@ -6,28 +6,63 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Rubik:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
     <link rel="stylesheet" href="app.css">
 </head>
-<body>
-<header class="font-rubik">
+<body class="mb-96">
+<header class="mx-16 py-3 font-rubik flex items-center">
     <h1><a href="#">
-        <img class="logo" src="https://heptagon.in/wp-content/uploads/2022/09/heptagon_logo_new.svg" alt="Heptagon Logo">
+        <img class="w-[154px]" src="https://heptagon.in/wp-content/uploads/2022/09/heptagon_logo_new.svg" alt="Heptagon Logo">
     </a></h1>
-    <nav>
-        <a href="#" class="active">Home</a>
-        <a href="#">Company</a>
-        <a href="#">Services</a>
-        <a href="#">Case Studies</a>
-        <a href="#">Portfolio</a>
-        <a href="#">Blog</a>
-        <a href="#">Careers</a>
-        <a href="#">Contact Us</a>
+    <nav class="ml-12 flex space-x-8 font-medium">
+        <a class="navbar-item" href="#" class="active">Home</a>
+        <a class="navbar-item" href="#">Company</a>
+        <a class="navbar-item" href="#">Services</a>
+        <a class="navbar-item" href="#">Case Studies</a>
+        <a class="navbar-item" href="#">Portfolio</a>
+        <a class="navbar-item" href="#">Blog</a>
+        <a class="navbar-item" href="#">Careers</a>
+        <a class="navbar-item" href="#">Contact Us</a>
     </nav>
 </header>
 <main>
-    <section class="banner">
-        <h2 class="font-poppins">Digital <br>Catalyst <br>for Growth</h2>
+    <section class="banner h-[540px] bg-center flex items-center">
+        <div class="mx-56 text-[72px] font-bold text-white font-poppins leading-tight">
+            <h2 class="font-poppins">Digital <br>Catalyst <br>for Growth</h2>
+        </div>
+    </section>
+    <section>
+        <div class="bg-[#231834]">
+            <div class="mx-32 pb-56 py-16 grid grid-cols-2 text-white">
+                <div>
+                    <h3 class="text-blue-500 font-semibold uppercase tracking-widest">Our Company</h3>
+                    <p class="mt-2 text-4xl">Heptagon is the digital catalyst for your business growth</p>
+                </div>
+                <div class="text-xl">
+                    <p>Founded in 2017, we are a next-generation Product engineering and Digital consulting company providing end-to-end technology solutions enabling companies to leapfrog their digital transformation journey.</p>
+                    <p class="mt-4">Heptagon is an associate company of Quess Corp. <a class="text-blue-500" href="https://heptagon.in/about-us/">Learn more</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="-mt-40 mx-32 grid grid-cols-3 gap-8">
+            <div class="relative">
+                <img src="https://heptagon.in/wp-content/uploads/2020/10/banner-small-01-800x450.jpg" alt="">
+                <div class="absolute -bottom-10 right-0 left-0">
+                    <div class="mx-8 py-4 py-8 text-xl bg-white font-medium text-center shadow">Our Services</div>
+                </div>
+            </div>
+            <div class="relative">
+                <img src="	https://heptagon.in/wp-content/uploads/2020/10/banner-small-03-800x450.jpg" alt="">
+                <div class="absolute -bottom-10 right-0 left-0">
+                    <div class="mx-8 py-4 py-8 text-xl bg-white font-medium text-center shadow">Case Studies</div>
+                </div>
+            </div>
+            <div class="relative">
+                <img src="https://heptagon.in/wp-content/uploads/2020/10/banner-small-02-800x450.jpg" alt="">
+                <div class="absolute -bottom-10 right-0 left-0">
+                    <div class="mx-8 py-4 py-8 text-xl bg-white font-medium text-center shadow">Success Stories</div>
+                </div>
+            </div>
+        </div>
     </section>
 </main>
 </body>

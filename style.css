@@ -1,0 +1,50 @@
+.font-rubik {
+  font-family: 'Rubik', sans-serif;
+}
+
+.font-poppins {
+  font-family: 'Poppins', sans-serif;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  margin: 0 48px;
+}
+
+header > nav {
+  margin-left: 72px;
+}
+
+header > nav > a {
+  padding: 12px 0;
+  margin-right: 24px;
+  text-decoration: none;
+  color: inherit;
+  border-top: 3px solid transparent;
+  font-weight: 600;
+}
+
+header > nav > a:hover, header > nav > a.active {
+  color: blue;
+  border-top-color: blue;
+}
+
+.banner {
+  background-image: url(https://heptagon.in/wp-content/uploads/2020/10/Digital-Transformation-Services.jpg);
+  height: 450px;
+  background-position: center;
+  display: flex;
+  align-items: center;
+}
+
+.banner > h2 {
+  margin: 0 96px;
+  font-size: 72px;
+  color: white;
+}
+
+.logo {
+  width: 154px;
+  height: auto;
+}

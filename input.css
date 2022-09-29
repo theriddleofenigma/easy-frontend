@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.font-rubik {
+  font-family: 'Rubik', sans-serif;
+}
+
+.font-poppins {
+  font-family: 'Poppins', sans-serif;
+}
+
+.navbar-item {
+  @apply py-4 border-t-[3px] border-transparent hover:border-blue-600
+}
+
+.banner {
+  background-image: url(https://heptagon.in/wp-content/uploads/2020/10/Digital-Transformation-Services.jpg);
+}
