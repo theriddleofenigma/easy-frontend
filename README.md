@@ -21,6 +21,13 @@ Branch [`part_1`](https://github.com/theriddleofenigma/easy-frontend/tree/part_1
 Recording link [here](https://vimeo.com/752482889/efc4c79c98).
 
 
+
+### Part 2
+
+In this session, We are converting the last week work to use tailwind css and continue building the Heptagon site.
+
+#### Session Details:
+
 Easy frontend for Backend Developers - Part 2
 
 Branch [`part_2`](https://github.com/theriddleofenigma/easy-frontend/tree/part_2)
