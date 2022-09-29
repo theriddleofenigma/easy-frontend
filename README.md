@@ -21,6 +21,13 @@ Branch [`part_1`](https://github.com/theriddleofenigma/easy-frontend/tree/part_1
 Recording link [here](https://vimeo.com/752482889/efc4c79c98).
 
 
+Easy frontend for Backend Developers - Part 2
+
+Branch [`part_2`](https://github.com/theriddleofenigma/easy-frontend/tree/part_2)
+
+Recording link [here](https://vimeo.com/755093840/140beebb5d).
+
+
 ## Credits
 
 - [Kumaravel](https://github.com/theriddleofenigma)
